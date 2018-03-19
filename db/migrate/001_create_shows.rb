@@ -1,1 +1,3 @@
-CREATE TABLE shows ()
+CREATE TABLE shows (
+
+)
