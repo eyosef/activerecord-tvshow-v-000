@@ -2,5 +2,5 @@ CREATE TABLE shows (
 string :name
 string :network
 string :day
-integer
+integer :rating
 )
