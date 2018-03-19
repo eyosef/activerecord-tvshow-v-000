@@ -2,6 +2,6 @@ require 'pry'
 class Show < ActiveRecord::Base
 
   def self.highest_rating
-    Show.order()
+    Show.order(:rating)
   end
 end
