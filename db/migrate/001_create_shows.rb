@@ -1,7 +1,7 @@
 CREATE TABLE shows (
 name string
 network string
-day
+day string
 rating
 
 )
