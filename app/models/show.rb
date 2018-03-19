@@ -7,8 +7,6 @@ class Show < ActiveRecord::Base
 
   def self.most_popular_show
     self.first
-
-    #Show.order(rating: :desc).limit(1)
   end
 
 
