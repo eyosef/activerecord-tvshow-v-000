@@ -1,8 +1,7 @@
 class CreateShoes < ActiveRecord::Migration
   def change
-    create_table :shows do |t| 
-    string :name
-    string :network
-    string :day
-    integer :rating
-    
+    create_table :shows do |t|
+    t.string :name
+    t.string :network
+    t.string :day
+    t.integer :rating
