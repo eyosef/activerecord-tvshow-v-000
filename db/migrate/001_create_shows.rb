@@ -1,6 +1,6 @@
 CREATE TABLE shows (
 string :name
 string :network
-string
+string :day
 rating integer
 )
