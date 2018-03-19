@@ -1,6 +1,6 @@
 CREATE TABLE shows (
 name string
-network
+network string
 day
 rating
 
