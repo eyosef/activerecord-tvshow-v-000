@@ -5,6 +5,6 @@ class Show < ActiveRecord::Base
     Show.order(rating: :desc).maximum(:rating)
   end
 
-  
-  
+
+
 end
