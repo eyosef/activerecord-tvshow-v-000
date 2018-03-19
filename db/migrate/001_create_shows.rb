@@ -1,4 +1,4 @@
-class CreateShoes < ActiveRecord::Migration
+class CreateShoes < ActiveRecord::Migration[4.2]
   def change
     create_table :shows do |t|
     t.string :name
@@ -7,4 +7,4 @@ class CreateShoes < ActiveRecord::Migration
     t.integer :rating
     end
   end
-end 
+end
